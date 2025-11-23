@@ -1,70 +1,151 @@
-# Getting Started with Create React App
+# 📦 Inventory Management System (MERN + SQLite)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A complete **Product Inventory Management System** built using  
+**React (frontend)**, **Node.js + Express (backend)**, and **SQLite (database)**.
 
-## Available Scripts
+This project includes:
 
-In the project directory, you can run:
+- Product listing & filtering  
+- Search (client + server)  
+- Inline editing  
+- CSV import & export  
+- Inventory change history tracking  
+- JWT user authentication (Login + Register)  
+- Pagination, sorting, category filtering  
+- Deployed frontend & backend  
+- Sample CSV dataset  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Live Demo URLs
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔗 Frontend (React)  
+👉 https://your-frontend-url.vercel.app
 
-### `npm test`
+### 🔗 Backend API (Node + Express)  
+👉 https://your-backend-url.onrender.com
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Example API endpoint:  
+`GET /api/products`
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📝 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ✔ Products Management
+- Add new products  
+- Edit inline in table  
+- Delete product  
+- View product history  
+- Dynamic “In Stock / Out of Stock” badges  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ✔ Search & Filters
+- Search by name  
+- Filter by category  
+- Sort by name, category, brand, stock, status  
+- Pagination: 10 / 20 / 30 / 50 items per page  
 
-### `npm run eject`
+### ✔ CSV Import & Export
+- Import CSV with validation  
+- Skip duplicates  
+- Export all products with correct headers  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ✔ Inventory History
+- Auto-logs on stock updates  
+- History panel with timestamp, old & new quantity, updated by  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ✔ Authentication (JWT)
+- Register, Login  
+- Token stored in localStorage  
+- Protected routes for managing products  
+- Authorization: Bearer Token  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🗂 Project Structure
+```
+inventory-management-app/
+│
+├── backend/
+│ ├── controllers/
+│ ├── middlewares/
+│ ├── routes/
+│ ├── utils/
+│ ├── inventory.db (auto-created)
+│ ├── server.js
+│ └── package.json
+│
+├── frontend/
+│ ├── public/
+│ ├── src/
+│ │ ├── pages/
+│ │ ├── components/
+│ │ ├── api/
+│ │ └── styles/
+│ └── package.json
+│
+├── sample-products.csv
+└── README.md
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Frontend**
+- React  
+- React Router  
+- Axios  
+- React Toastify  
+- CSS  
 
-### Code Splitting
+### **Backend**
+- Node.js  
+- Express  
+- SQLite3  
+- Multer (file upload)  
+- CSV-parser  
+- jsonwebtoken (JWT)  
+- bcryptjs  
+- express-validator  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠 Installation & Running Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 1️⃣ Clone Repo
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/<your-username>/Inventory-Management-System.git
+cd Inventory-Management-System
+```
+### 2️⃣ Backend Setup
+```bash
+cd backend
+npm install
+npm run dev
+```
+### Environment variables (backend/.env):
+```bash 
+PORT=5000
+DB_PATH=./inventory.db
+JWT_SECRET=your_secret_key_here
+```
+Backend runs at:
+```bash
+👉 http://localhost:5000
+```
+### 3️⃣ Frontend Setup
+``` bash
+cd ../frontend
+npm install
+npm start
+``` 
+Environment variables (frontend/.env):
+```bash
+REACT_APP_API_URL=http://localhost:5000
+```
+Frontend runs at:
+```bash
+👉 http://localhost:3000
+```
