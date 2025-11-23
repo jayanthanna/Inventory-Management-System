@@ -1,0 +1,201 @@
+Image,name,unit,category,brand,stock,status
+product_001.jpg,Wireless Mouse,piece,Electronics,TechBrand,15,In Stock
+product_002.jpg,Organic Coffee Beans,bag,Groceries,BeanCo,0,Out of Stock
+product_003.jpg,Cotton T-Shirt (Blue),piece,Apparel,StyleFit,25,In Stock
+product_004.jpg,LED Desk Lamp,piece,Home & Office,BrightHome,0,Out of Stock
+product_005.jpg,Stainless Water Bottle,piece,Accessories,AquaPure,40,In Stock
+product_006.jpg,Yoga Mat (Red),piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_007.jpg,Bluetooth Speaker Mini,piece,Electronics,SoundWave,8,In Stock
+product_008.jpg,Canned Black Beans,can,Groceries,FarmFresh,0,Out of Stock
+product_009.jpg,Running Shoes (Men's),pair,Apparel,StrideFast,12,In Stock
+product_010.jpg,Novelty Coffee Mug,piece,Home & Office,MugMasters,30,In Stock
+product_011.jpg,Keyboard Mechanical,piece,Electronics,TechBrand,1,In Stock
+product_012.jpg,Frozen Chicken Breast,pack,Groceries,MeatCo,0,Out of Stock
+product_013.jpg,Denim Jeans (Slim),piece,Apparel,StyleFit,22,In Stock
+product_014.jpg,Ergonomic Office Chair,piece,Home & Office,BrightHome,0,Out of Stock
+product_015.jpg,Leather Wallet,piece,Accessories,AquaPure,5,In Stock
+product_016.jpg,Resistance Bands Set,set,Sports & Outdoors,FlexGear,0,Out of Stock
+product_017.jpg,Headphones Noise Cancelling,piece,Electronics,SoundWave,18,In Stock
+product_018.jpg,Pasta Sauce Tomato,jar,Groceries,FarmFresh,0,Out of Stock
+product_019.jpg,Sneakers Casual,pair,Apparel,StrideFast,45,In Stock
+product_020.jpg,Picture Frame 8x10,piece,Home & Office,MugMasters,28,In Stock
+product_021.jpg,Monitor 27-inch,piece,Electronics,TechBrand,3,In Stock
+product_022.jpg,Fresh Apples,bag,Groceries,BeanCo,0,Out of Stock
+product_023.jpg,Hoodie Basic Grey,piece,Apparel,StyleFit,11,In Stock
+product_024.jpg,File Cabinet 2-Drawer,piece,Home & Office,BrightHome,0,Out of Stock
+product_025.jpg,Travel Backpack,piece,Accessories,AquaPure,16,In Stock
+product_026.jpg,Dumbbells 10lb Pair,pair,Sports & Outdoors,FlexGear,0,Out of Stock
+product_027.jpg,Smart Watch,piece,Electronics,SoundWave,9,In Stock
+product_028.jpg,Oatmeal Quick Cook,box,Groceries,FarmFresh,0,Out of Stock
+product_029.jpg,Dress Shirt White,piece,Apparel,StrideFast,33,In Stock
+product_030.jpg,Scented Candle Vanilla,piece,Home & Office,MugMasters,17,In Stock
+product_031.jpg,Webcam HD,piece,Electronics,TechBrand,6,In Stock
+product_032.jpg,Bread Whole Wheat,loaf,Groceries,MeatCo,0,Out of Stock
+product_033.jpg,Sweatpants Fleece,piece,Apparel,StyleFit,50,In Stock
+product_034.jpg,Planner Weekly 2026,piece,Home & Office,BrightHome,0,Out of Stock
+product_035.jpg,Sunglasses Aviator,pair,Accessories,AquaPure,2,In Stock
+product_036.jpg,Jump Rope Adjustable,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_037.jpg,Portable Charger 10k mAh,piece,Electronics,SoundWave,21,In Stock
+product_038.jpg,Milk Almond Unsweetened,carton,Groceries,FarmFresh,0,Out of Stock
+product_039.jpg,Socks Ankle (3-pack),pack,Apparel,StrideFast,39,In Stock
+product_040.jpg,Coffee Maker Drip,piece,Home & Office,MugMasters,10,In Stock
+product_041.jpg,Laptop Stand Aluminum,piece,Electronics,TechBrand,0,Out of Stock
+product_042.jpg,Eggs Large Dozen,dozen,Groceries,BeanCo,0,Out of Stock
+product_043.jpg,Polo Shirt Green,piece,Apparel,StyleFit,27,In Stock
+product_044.jpg,Shredder Cross-Cut,piece,Home & Office,BrightHome,0,Out of Stock
+product_045.jpg,Phone Case Silicone,piece,Accessories,AquaPure,19,In Stock
+product_046.jpg,Kettlebell 20lb,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_047.jpg,VR Headset,piece,Electronics,SoundWave,4,In Stock
+product_048.jpg,Olive Oil Extra Virgin,bottle,Groceries,FarmFresh,0,Out of Stock
+product_049.jpg,Winter Coat Down,piece,Apparel,StrideFast,48,In Stock
+product_050.jpg,Wall Clock Modern,piece,Home & Office,MugMasters,13,In Stock
+product_051.jpg,Gaming Headset,piece,Electronics,TechBrand,0,Out of Stock
+product_052.jpg,Yogurt Greek Plain,tub,Groceries,MeatCo,0,Out of Stock
+product_053.jpg,Skirt Pleated Black,piece,Apparel,StyleFit,35,In Stock
+product_054.jpg,Printer Laser Mono,piece,Home & Office,BrightHome,0,Out of Stock
+product_055.jpg,Earbuds Wireless,piece,Accessories,AquaPure,7,In Stock
+product_056.jpg,Treadmill Foldable,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_057.jpg,Security Camera Indoor,piece,Electronics,SoundWave,24,In Stock
+product_058.jpg,Rice Basmati 5lb,bag,Groceries,FarmFresh,0,Out of Stock
+product_059.jpg,Belt Leather Brown,piece,Apparel,StrideFast,31,In Stock
+product_060.jpg,Blender High-Speed,piece,Home & Office,MugMasters,14,In Stock
+product_061.jpg,Graphics Card RTX 4080,piece,Electronics,TechBrand,0,Out of Stock
+product_062.jpg,Ground Beef 80/20,lb,Groceries,BeanCo,0,Out of Stock
+product_063.jpg,Blazer Navy Blue,piece,Apparel,StyleFit,42,In Stock
+product_064.jpg,Bookcase 5-Shelf,piece,Home & Office,BrightHome,0,Out of Stock
+product_065.jpg,Gloves Winter Touchscreen,pair,Accessories,AquaPure,20,In Stock
+product_066.jpg,Foam Roller,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_067.jpg,Smart Plug 2-pack,pack,Electronics,SoundWave,29,In Stock
+product_068.jpg,Dog Food Dry 15lb,bag,Groceries,FarmFresh,0,Out of Stock
+product_069.jpg,Flip-Flops Beach,pair,Apparel,StrideFast,47,In Stock
+product_070.jpg,Toaster 2-Slice,piece,Home & Office,MugMasters,26,In Stock
+product_071.jpg,External Hard Drive 2TB,piece,Electronics,TechBrand,0,Out of Stock
+product_072.jpg,Potato Chips Sea Salt,bag,Groceries,MeatCo,0,Out of Stock
+product_073.jpg,Leggings High-Waist,piece,Apparel,StyleFit,34,In Stock
+product_074.jpg,Desk Organizer Metal,piece,Home & Office,BrightHome,0,Out of Stock
+product_075.jpg,Makeup Brush Set,set,Accessories,AquaPure,38,In Stock
+product_076.jpg,Yoga Blocks Pair,pair,Sports & Outdoors,FlexGear,0,Out of Stock
+product_077.jpg,Streaming Stick 4K,piece,Electronics,SoundWave,5,In Stock
+product_078.jpg,Frozen Pizza Pepperoni,piece,Groceries,FarmFresh,0,Out of Stock
+product_079.jpg,Scarf Knit Wool,piece,Apparel,StrideFast,41,In Stock
+product_080.jpg,Area Rug 5x7 Grey,piece,Home & Office,MugMasters,16,In Stock
+product_081.jpg,Portable SSD 1TB,piece,Electronics,TechBrand,17,In Stock
+product_082.jpg,Toilet Paper 12 Rolls,pack,Groceries,BeanCo,0,Out of Stock
+product_083.jpg,Trench Coat Beige,piece,Apparel,StyleFit,23,In Stock
+product_084.jpg,L-Shaped Desk,piece,Home & Office,BrightHome,0,Out of Stock
+product_085.jpg,Keychain Multi-Tool,piece,Accessories,AquaPure,1,In Stock
+product_086.jpg,Pull-Up Bar Doorway,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_087.jpg,Drone with Camera,piece,Electronics,SoundWave,19,In Stock
+product_088.jpg,Cat Litter Clay 20lb,bag,Groceries,FarmFresh,0,Out of Stock
+product_089.jpg,Beanie Hat Black,piece,Apparel,StrideFast,46,In Stock
+product_090.jpg,Air Fryer Digital,piece,Home & Office,MugMasters,32,In Stock
+product_091.jpg,Projector Mini,piece,Electronics,TechBrand,0,Out of Stock
+product_092.jpg,Laundry Detergent Liquid,bottle,Groceries,MeatCo,0,Out of Stock
+product_093.jpg,Pajama Set Flannel,set,Apparel,StyleFit,13,In Stock
+product_094.jpg,Monitor Stand Wood,piece,Home & Office,BrightHome,0,Out of Stock
+product_095.jpg,Jewelry Box Velvet,piece,Accessories,AquaPure,37,In Stock
+product_096.jpg,Bike Helmet Adult,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_097.jpg,E-Reader Tablet,piece,Electronics,SoundWave,10,In Stock
+product_098.jpg,Sugar Granulated 5lb,bag,Groceries,FarmFresh,0,Out of Stock
+product_099.jpg,Turtleneck Sweater,piece,Apparel,StrideFast,44,In Stock
+product_100.jpg,Vacuum Cleaner Cordless,piece,Home & Office,MugMasters,27,In Stock
+product_101.jpg,Docking Station USB-C,piece,Electronics,TechBrand,3,In Stock
+product_102.jpg,Frozen Vegetables Mixed,bag,Groceries,BeanCo,0,Out of Stock
+product_103.jpg,Dress Cocktail Red,piece,Apparel,StyleFit,28,In Stock
+product_104.jpg,Whiteboard Magnetic 4x3,piece,Home & Office,BrightHome,0,Out of Stock
+product_105.jpg,Umbrella Folding Travel,piece,Accessories,AquaPure,49,In Stock
+product_106.jpg,Hiking Boots Men's,pair,Sports & Outdoors,FlexGear,0,Out of Stock
+product_107.jpg,Security Alarm System,set,Electronics,SoundWave,2,In Stock
+product_108.jpg,Soup Canned Chicken Noodle,can,Groceries,FarmFresh,0,Out of Stock
+product_109.jpg,Loafers Leather Black,pair,Apparel,StrideFast,36,In Stock
+product_110.jpg,Stand Mixer Kitchen,piece,Home & Office,MugMasters,18,In Stock
+product_111.jpg,Portable Speaker Waterproof,piece,Electronics,TechBrand,0,Out of Stock
+product_112.jpg,Butter Salted 1lb,stick,Groceries,MeatCo,0,Out of Stock
+product_113.jpg,Swim Trunks Patterned,piece,Apparel,StyleFit,21,In Stock
+product_114.jpg,Desk Lamp Flexible Arm,piece,Home & Office,BrightHome,0,Out of Stock
+product_115.jpg,Backpack School,piece,Accessories,AquaPure,43,In Stock
+product_116.jpg,Ski Goggles,pair,Sports & Outdoors,FlexGear,0,Out of Stock
+product_117.jpg,Digital Camera DSLR,piece,Electronics,SoundWave,6,In Stock
+product_118.jpg,Flour All-Purpose 5lb,bag,Groceries,FarmFresh,0,Out of Stock
+product_119.jpg,Gloves Leather Driving,pair,Apparel,StrideFast,30,In Stock
+product_120.jpg,Microwave Oven Compact,piece,Home & Office,MugMasters,15,In Stock
+product_121.jpg,CPU Intel Core i9,piece,Electronics,TechBrand,0,Out of Stock
+product_122.jpg,Coffee Creamer Vanilla,bottle,Groceries,BeanCo,0,Out of Stock
+product_123.jpg,Jacket Puffer Black,piece,Apparel,StyleFit,29,In Stock
+product_124.jpg,Filing Cabinet Rolling,piece,Home & Office,BrightHome,0,Out of Stock
+product_125.jpg,Reusable Shopping Bag,piece,Accessories,AquaPure,50,In Stock
+product_126.jpg,Basketball Indoor/Outdoor,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_127.jpg,Power Bank Solar,piece,Electronics,SoundWave,20,In Stock
+product_128.jpg,Tea Bags Green 100ct,box,Groceries,FarmFresh,0,Out of Stock
+product_129.jpg,Booties Ankle Suede,pair,Apparel,StrideFast,2,In Stock
+product_130.jpg,Picture Frame Collage,piece,Home & Office,MugMasters,39,In Stock
+product_131.jpg,Router Wi-Fi 6,piece,Electronics,TechBrand,0,Out of Stock
+product_132.jpg,Shampoo Hydrating,bottle,Groceries,MeatCo,0,Out of Stock
+product_133.jpg,Cardigan Knit Beige,piece,Apparel,StyleFit,14,In Stock
+product_134.jpg,Shelving Unit Metal,piece,Home & Office,BrightHome,0,Out of Stock
+product_135.jpg,Portable Fan USB,piece,Accessories,AquaPure,33,In Stock
+product_136.jpg,Water Filters Pitcher (3pk),pack,Sports & Outdoors,FlexGear,0,Out of Stock
+product_137.jpg,Projector Screen Roll-up,piece,Electronics,SoundWave,7,In Stock
+product_138.jpg,Cereal Honey Oats,box,Groceries,FarmFresh,0,Out of Stock
+product_139.jpg,Wallet Canvas Bi-fold,piece,Apparel,StrideFast,45,In Stock
+product_140.jpg,Bookends Decorative,pair,Home & Office,MugMasters,11,In Stock
+product_141.jpg,Mini PC Desktop,piece,Electronics,TechBrand,4,In Stock
+product_142.jpg,Tuna Canned in Water,can,Groceries,BeanCo,0,Out of Stock
+product_143.jpg,Dress Maxi Floral,piece,Apparel,StyleFit,35,In Stock
+product_144.jpg,Waste Basket Office,piece,Home & Office,BrightHome,0,Out of Stock
+product_145.jpg,Travel Pillow Memory Foam,piece,Accessories,AquaPure,24,In Stock
+product_146.jpg,Badminton Rackets Set,set,Sports & Outdoors,FlexGear,0,Out of Stock
+product_147.jpg,Dash Cam Front/Rear,piece,Electronics,SoundWave,31,In Stock
+product_148.jpg,Crackers Salted,box,Groceries,FarmFresh,0,Out of Stock
+product_149.jpg,Running Shorts Men's,piece,Apparel,StrideFast,18,In Stock
+product_150.jpg,Photo Printer Portable,piece,Home & Office,MugMasters,26,In Stock
+product_151.jpg,Power Strip Surge Protector,piece,Electronics,TechBrand,0,Out of Stock
+product_152.jpg,Soda Cola 12-pack,pack,Groceries,MeatCo,0,Out of Stock
+product_153.jpg,Tank Top Ribbed White,piece,Apparel,StyleFit,40,In Stock
+product_154.jpg,Calculator Scientific,piece,Home & Office,BrightHome,0,Out of Stock
+product_155.jpg,Portable Hand Warmer,piece,Accessories,AquaPure,3,In Stock
+product_156.jpg,Duffel Bag Gym,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_157.jpg,Noise Meter Digital,piece,Electronics,SoundWave,22,In Stock
+product_158.jpg,Peanut Butter Creamy,jar,Groceries,FarmFresh,0,Out of Stock
+product_159.jpg,Jeans Skinny Black,piece,Apparel,StrideFast,48,In Stock
+product_160.jpg,Waffle Maker Non-Stick,piece,Home & Office,MugMasters,13,In Stock
+product_161.jpg,Smart Home Hub,piece,Electronics,TechBrand,16,In Stock
+product_162.jpg,Coffee Pods Variety Pack,box,Groceries,BeanCo,0,Out of Stock
+product_163.jpg,Blouse Silk Long-Sleeve,piece,Apparel,StyleFit,5,In Stock
+product_164.jpg,Cork Board Bulletin,piece,Home & Office,BrightHome,0,Out of Stock
+product_165.jpg,Insulated Lunch Bag,piece,Accessories,AquaPure,47,In Stock
+product_166.jpg,Yoga Strap Cotton,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_167.jpg,Action Camera 4K,piece,Electronics,SoundWave,34,In Stock
+product_168.jpg,Dish Soap Lemon Scent,bottle,Groceries,FarmFresh,0,Out of Stock
+product_169.jpg,Sandals Thong Style,pair,Apparel,StrideFast,19,In Stock
+product_170.jpg,Tablecloth Linen Square,piece,Home & Office,MugMasters,41,In Stock
+product_171.jpg,Gaming Keyboard RGB,piece,Electronics,TechBrand,0,Out of Stock
+product_172.jpg,Frozen Burritos Bean & Cheese,pack,Groceries,MeatCo,0,Out of Stock
+product_173.jpg,Skirt Mini Denim,piece,Apparel,StyleFit,2,In Stock
+product_174.jpg,Tape Dispenser Heavy Duty,piece,Home & Office,BrightHome,0,Out of Stock
+product_175.jpg,Hair Dryer Travel Size,piece,Accessories,AquaPure,38,In Stock
+product_176.jpg,Fitness Tracker Band,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_177.jpg,Wireless Charging Pad,piece,Electronics,SoundWave,9,In Stock
+product_178.jpg,Maple Syrup Pure,bottle,Groceries,FarmFresh,0,Out of Stock
+product_179.jpg,Pants Chinos Khaki,piece,Apparel,StrideFast,44,In Stock
+product_180.jpg,Cutlery Set Stainless Steel,set,Home & Office,MugMasters,23,In Stock
+product_181.jpg,Portable Monitor 15-inch,piece,Electronics,TechBrand,12,In Stock
+product_182.jpg,Baby Wipes Unscented,pack,Groceries,BeanCo,0,Out of Stock
+product_183.jpg,Sweater V-Neck Wool,piece,Apparel,StyleFit,36,In Stock
+product_184.jpg,Book Storage Box Decorative,piece,Home & Office,BrightHome,0,Out of Stock
+product_185.jpg,Tote Bag Canvas,piece,Accessories,AquaPure,30,In Stock
+product_186.jpg,Resistance Parachute Running,piece,Sports & Outdoors,FlexGear,0,Out of Stock
+product_187.jpg,Bluetooth Receiver Audio,piece,Electronics,SoundWave,46,In Stock
+product_188.jpg,Honey Bear Bottle,bottle,Groceries,FarmFresh,0,Out of Stock
+product_189.jpg,Dress Shirt Plaid,piece,Apparel,StrideFast,25,In Stock
+product_190.jpg,Diffuser Essential Oil,piece,Home & Office,MugMasters,10,In Stock
+product_191.jpg,Memory Card SD 128GB,piece,Electronics,TechBrand,0,Out of Stock
+product_192.jpg,Chicken Broth Low Sodium,carton,Groceries,MeatCo,0,Out of Stock
+product_193.jpg,Coat Pea Wool Blend,piece,Apparel,StyleFit,32,In Stock
+product_194.jpg,Desk Mat Large,piece,Home & Office,BrightHome,0,Out of Stock
+product_195.jpg,Lanyard Neck Strap,piece,Accessories,AquaPure,17,In Stock
+product_196.jpg,Gloves Weight Lifting,pair,Sports & Outdoors,FlexGear,0,Out of Stock
+product_197.jpg,IP Camera Outdoor,piece,Electronics,SoundWave,29,In Stock
+product_198.jpg,Gummy Vitamins Adult,bottle,Groceries,FarmFresh,0,Out of Stock
+product_199.jpg,Neck Tie Silk Patterned,piece,Apparel,StrideFast,43,In Stock
+product_200.jpg,Shelf Floating White,piece,Home & Office,MugMasters,20,In Stock

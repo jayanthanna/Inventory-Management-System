@@ -1,0 +1,317 @@
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+}
+
+/* Table base */
+.products-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px; /* row gap for card-like rows */
+  background: transparent;
+}
+
+.products-table thead th {
+  position: sticky;
+  top: 0;
+  background: #f3f4f6;
+  z-index: 2;
+  padding: 12px 14px;
+  font-weight: 600;
+  color: #111827;
+  border-bottom: none;
+}
+
+/* Row card look */
+.product-row {
+  background: #ffffff;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease,
+    border-color 160ms ease;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  border: 1px solid #eef2f6; /* visible border for every row */
+  border-radius: 10px; /* rounded card-like rows */
+  overflow: hidden; /* ensure rounded corners clip content */
+}
+
+.product-row td {
+  padding: 12px 14px;
+  vertical-align: middle;
+  border: none;
+}
+
+/* Hover elevate and subtle lift + highlight row color */
+.product-row.main-row:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(17, 24, 39, 0.06);
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  border-color: #d7e8ff;
+}
+
+/* Image thumb */
+.thumb {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: inline-block;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.thumb.placeholder {
+  background: #f3f4f6;
+  border: 1px dashed #e5e7eb;
+}
+
+/* Name column */
+.cell-name .name-text {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* Inline inputs when editing */
+.input-inline {
+  padding: 6px 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 13px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Status badges (kept from before) */
+.stock-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.stock-badge.in {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid rgba(16, 185, 129, 0.08);
+}
+
+.stock-badge.out {
+  background: #fff1f2;
+  color: #881337;
+  border: 1px solid rgba(239, 68, 68, 0.06);
+}
+
+/* Action buttons */
+.btn {
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease, opacity 120ms;
+  margin-left: 6px;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-edit {
+  background: #eef2ff;
+  color: #4f46e5;
+  box-shadow: 0 1px 0 rgba(79, 70, 229, 0.06);
+}
+.btn-edit:hover {
+  background: #e0e7ff;
+}
+
+.btn-delete {
+  background: #fff1f2;
+  color: #b91c1c;
+}
+.btn-delete:hover {
+  background: #ffe4e6;
+}
+
+.btn-save {
+  background: #ecfdf5;
+  color: #065f46;
+}
+.btn-save:hover {
+  background: #d1fae5;
+}
+
+.btn-cancel {
+  background: #f3f4f6;
+  color: #374151;
+}
+.btn-cancel:hover {
+  background: #e5e7eb;
+}
+
+.cell-actions {
+  white-space: nowrap;
+  width: 180px;
+}
+
+/* Details row — hidden (no expansion needed) */
+.details-row {
+  display: none;
+}
+
+.details-cell {
+  padding: 0 14px 14px 14px;
+  background: transparent;
+  border: none;
+}
+
+.details-content {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: max-height 240ms ease, opacity 200ms ease, transform 220ms ease;
+  background: #ffffff;
+  padding: 0 12px;
+  border-radius: 8px;
+}
+
+/* Larger image inside details (kept for potential use) */
+.thumb-large {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.06);
+}
+
+/* Details text */
+.details-right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #0f172a;
+}
+.details-line {
+  font-size: 14px;
+}
+.muted {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+/* Pagination bar styles */
+.pagination-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  margin-top: 16px;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfbff 100%);
+  border: 1px solid #eef2f6;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.04);
+  color: #0f172a;
+  font-size: 14px;
+}
+
+/* Controls container (rows per page, prev/next) */
+.pagination-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Primary button (Create / important actions) */
+.pagination-controls button,
+.pagination-bar > button {
+  background: #4f46e5; /* indigo */
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.08);
+  transition: transform 140ms ease, box-shadow 140ms ease, opacity 120ms;
+}
+
+/* Smaller secondary buttons (Prev / Next) */
+.pagination-controls .secondary {
+  background: #eef2ff;
+  color: #4338ca;
+  box-shadow: none;
+}
+
+/* Hover states */
+.pagination-controls button:hover:not(:disabled),
+.pagination-controls .secondary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(79, 70, 229, 0.12);
+}
+
+/* Disabled state */
+.pagination-controls button:disabled,
+.pagination-controls .secondary:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Rows-per-page select */
+.pagination-controls select {
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #0f172a;
+  font-weight: 600;
+  outline: none;
+}
+
+/* Info text */
+.pagination-bar > div:first-child,
+.pagination-bar span {
+  color: #374151;
+  font-size: 14px;
+}
+
+/* Tighter layout for small screens */
+@media (max-width: 560px) {
+  .pagination-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .pagination-controls {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+/* Responsive tweaks */
+@media (max-width: 760px) {
+  .cell-actions {
+    width: auto;
+  }
+  .details-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .thumb-large {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+/* keep sort icon styling */
+.sort-icon {
+  font-size: 12px;
+  margin-left: 6px;
+  opacity: 0.6;
+}
